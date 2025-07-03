@@ -32,7 +32,7 @@ Proyek ini adalah sistem verifikasi PIN sederhana menggunakan **Arduino Uno**, *
 
 ## 📷 Tampilan Proyek
 
-📸 *Tambahkan foto proyekmu di sini jika ada!*
+📸 ![Prototipe Sistem Verifikasi PIN](foto_proyek.jpeg)
 
 ```cpp
 // Contoh tampilan pin input di LCD
