@@ -30,6 +30,25 @@ Proyek ini adalah sistem verifikasi PIN sederhana menggunakan **Arduino Uno**, *
 
 ---
 
+## ⚙️ CARA KERJA
+
+1. Pengguna memilih angka PIN 1 digit demi 1 digit menggunakan joystick.
+2. Setiap digit dikonfirmasi dengan menekan tombol "OK" (button C).
+3. Setelah semua digit selesai, pengguna menekan tombol "Submit" (button B).
+4. Sistem akan mengecek apakah PIN sesuai dengan PIN default (`1234`).
+   - Jika benar: LED hijau menyala & pesan "Pin Benar" ditampilkan.
+   - Jika salah: LED merah menyala & pesan "Pin Salah" ditampilkan.
+
+---
+
+## 📂 Struktur Kode
+
+- `setup()`: Inisialisasi LCD, LED, button
+- `loop()`: Menangani navigasi menu dan verifikasi PIN
+- `struct` dan `class`: Mengorganisasi data dan fungsi modular
+
+---
+
 ## 📷 Tampilan Proyek
 
 📸 ![Prototipe Sistem Verifikasi PIN](foto_proyek.jpeg)
